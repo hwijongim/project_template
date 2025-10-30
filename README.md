@@ -1,8 +1,13 @@
-# project_template
---- 
+# 🏗️ project_template
+---
 
-프로젝트 수행을 위한 기본 탬플릿 구조 정의: 
+**프로젝트 수행을 위한 기본 템플릿 구조 정의**
 
+---
+
+## 📁 Directory Structure
+
+```text
 temp_project/
 ├─ pyproject.toml             # PEP 621 메타데이터 + 의존성(uv가 읽음)
 ├─ uv.lock                    # uv 락파일(자동 생성, 커밋 권장)
@@ -46,4 +51,3 @@ temp_project/
 │
 └─ tests/                     # 단위/통합 테스트
    └─ test_smoke.py
-
